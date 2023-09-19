@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* Primary */
+    --darkBlue: #2d314d;
+    --limeGreen: #31d35c;
+    --brightCyan: #2bb7da;
+
+    /* Neutral */
+    --grayishBlue: #9698a6;
+    --lightGrayishBlue: #f3f4f6;
+    --veryLightGray: #fafafa;
+    --white: #ffffff;
+}
+
+@font-face {
+    font-family: "Public Sans";
+    src: url(./assets/fonts//PublicSans-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Public Sans";
+    src: url(./assets/fonts/PublicSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Public Sans";
+    src: url(./assets/fonts/PublicSans-Bold.ttf);
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
