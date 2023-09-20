@@ -5,10 +5,10 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
 - [Author](#author)
 
 ## Overview
@@ -24,21 +24,20 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/screen.jpg)
+![Screenshot](./assets/images/screen.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://your-solution-url.com)
+- [Live Site URL](https://easybank-landing-gamma.vercel.app/)
+- [Github Repo URL](https://github.com/joacomesa22/easybank-landing)
 
 ### Built with
 
-- Semantic HTML5 markup
-- Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Tailwind](https://tailwindcss.com/) - For styles
 
 ## Author
 
-- Website - [Joaco Mesa](https://www.joacomesa.com.ar/)
+- Website - [joacomesa.com.ar](https://www.joacomesa.com.ar/)
 - Frontend Mentor - [@joacomesa22](https://www.frontendmentor.io/profile/yourusername)
