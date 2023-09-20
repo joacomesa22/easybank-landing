@@ -24,8 +24,6 @@ Users should be able to:
 
 ### Screenshot
 
-![Screen](./public/screen.jpg)
-
 ### Links
 
 - [Solution URL](https://your-solution-url.com)
