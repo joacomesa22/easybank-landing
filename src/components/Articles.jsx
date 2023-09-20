@@ -7,10 +7,10 @@ import imgRestaurant from "../assets/images/image-restaurant.jpg";
 
 const Articles = () => {
   return (
-    <div className="p-4 md:p-10 mt-20 flex justify-center">
-      <div className="flex flex-col items-center md:items-start text-center md:text-start gap-14 max-w-[1400px]">
+    <section className="p-4 md:p-10 my-10 flex justify-center">
+      <div className="flex flex-col items-center md:items-start text-center md:text-start gap-14 max-w-[1200px]">
         <h2 className="text-4xl text-[var(--darkBlue)]">Latest Articles</h2>
-        <div className="flex flex-wrap justify-center gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center gap-8">
           <ArticleCard
             img={imgCurrency}
             author={"By Claire Robinson"}
@@ -45,7 +45,7 @@ const Articles = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

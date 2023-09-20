@@ -9,7 +9,9 @@ const ArticleCard = ({ img, author, title, text }) => {
       <div className="p-4">
         <div className="flex flex-col gap-2">
           <span className="text-xs text-[var(--grayishBlue)]">{author}</span>
-          <h4 className="text-[1.2rem] text-[var(--darkBlue)]">{title}</h4>
+          <h4 className="text-[1.2rem] text-[var(--darkBlue)] hover:text-[var(--limeGreen)] duration-200 cursor-pointer">
+            {title}
+          </h4>
           <p className="text-sm text-[var(--grayishBlue)]">{text}</p>
         </div>
       </div>

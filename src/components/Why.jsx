@@ -7,8 +7,8 @@ import iconOnline from "../assets/images/icon-online.svg";
 
 const Why = () => {
   return (
-    <div className="bg-[var(--lightGrayishBlue)] p-4 md:p-10 mt-20 flex justify-center">
-      <div className="flex flex-col gap-14 max-w-[1400px]">
+    <section className="bg-[var(--lightGrayishBlue)] p-4 md:py-14 mt-20 flex justify-center">
+      <div className="flex flex-col gap-14 max-w-[1200px]">
         <div className="flex flex-col items-center gap-3 text-center md:items-start md:text-start ">
           <h2 className="text-4xl text-[var(--darkBlue)]">
             Why choose Easybank?
@@ -18,7 +18,7 @@ const Why = () => {
             financial hub. Control your finances like never before.
           </p>
         </div>
-        <div className="flex justify-center flex-wrap items-center gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center gap-8">
           <WhyCard
             title={"Online Banking"}
             text={
@@ -49,7 +49,7 @@ const Why = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

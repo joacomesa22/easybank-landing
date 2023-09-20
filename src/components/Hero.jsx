@@ -2,12 +2,13 @@ import React from "react";
 import bgMobile from "../assets/images/bg-intro-mobile.svg";
 import bgDesktop from "../assets/images/bg-intro-desktop.svg";
 import mobileMockups from "../assets/images/image-mockups.png";
+import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="md:pt-32 md:px-4 w-full flex justify-center">
-      <div className="flex flex-col items-center justify-center  md:flex-row-reverse max-w-[1400px] w-full">
-        <div className="relative w-full max-h-[600px] md:max-h-none md:w-auto md:max-w-[800px]">
+    <section className="md:pt-28 md:px-4 w-full flex justify-center">
+      <div className="flex flex-col items-center justify-center md:flex-row-reverse max-w-[1200px] w-full">
+        <div className="relative w-full max-h-[600px] md:max-h-none md:w-auto md:max-w-[1000px]">
           <img
             src={bgMobile}
             alt="bg mobile"
@@ -34,9 +35,7 @@ const Hero = () => {
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.
           </p>
-          <button className="py-3 px-8  rounded-full text-[var(--white)] text-sm bg-gradient-to-r from-[#31d35c] to-[#2bb7da]">
-            Request Invite
-          </button>
+          <Button />
         </div>
       </div>
     </section>
