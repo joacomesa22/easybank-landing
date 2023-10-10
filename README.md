@@ -40,4 +40,4 @@ Users should be able to:
 ## Author
 
 - Website - [joacomesa.com.ar](https://www.joacomesa.com.ar/)
-- Frontend Mentor - [@joacomesa22](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@joacomesa22](https://www.frontendmentor.io/profile/joacomesa22)
