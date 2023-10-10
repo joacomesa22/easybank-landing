@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/easybank-landing-built-with-react-tailwind-EXX_um9tpG)
 - [Live Site URL](https://easybank-landing-gamma.vercel.app/)
 - [Github Repo URL](https://github.com/joacomesa22/easybank-landing)
 
